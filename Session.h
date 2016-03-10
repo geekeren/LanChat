@@ -17,7 +17,7 @@ public:
 	//ClientSocket m_clientSocket;
 	vector<Message> messageList;
 	ChatDialog* chatDialog;
-	ClientSocket client;
+	ClientSocket *client;
 
 	Session(User);
 	void setOnline(bool);
