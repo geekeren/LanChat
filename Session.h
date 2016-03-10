@@ -3,7 +3,7 @@
 //class ClientSocket;
 #include "user.h"
 #include "message.h"
-
+#include "socket/MyserverSocket.h"
 #include <vector>
 
 class ChatDialog;
@@ -17,7 +17,7 @@ public:
 	//ClientSocket m_clientSocket;
 	vector<Message> messageList;
 	ChatDialog* chatDialog;
-
+	ClientSocket client;
 
 	Session(User);
 	void setOnline(bool);

@@ -111,6 +111,12 @@
     <ClInclude Include="SessionManager.h">
       <Filter>头文件\models</Filter>
     </ClInclude>
+    <ClInclude Include="Socket\MyServerSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\MySocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -142,6 +148,12 @@
     </ClCompile>
     <ClCompile Include="SessionManager.cpp">
       <Filter>源文件\models</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\MySocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\MyServerSocket.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

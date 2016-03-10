@@ -30,6 +30,7 @@ BOOL ChatDialog::OnInitDialog()
 	CDialogEx::OnInitDialog();
 	DataManager* manager = DataManager::getInstance();
 	session->setDialog(this);
+
 	return true;
 }
 
